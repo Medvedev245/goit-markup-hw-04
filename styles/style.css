@@ -422,7 +422,6 @@ img {
 .footer .container {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .footer-descr {
@@ -430,6 +429,7 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -454,12 +454,6 @@ img {
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
 }
-
-/* .footer-social-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .footer-social-text {
   margin: 0;
