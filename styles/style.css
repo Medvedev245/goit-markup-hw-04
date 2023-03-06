@@ -130,6 +130,9 @@ img {
     url(../images/background/bg-heroes.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .text-center {
@@ -197,9 +200,12 @@ img {
 .description-block {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 264px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  height: 112px;
+  background-color: var(--team-bg-color);
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .description-list {
@@ -367,6 +373,7 @@ img {
 }
 
 .customers-title {
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -421,7 +428,7 @@ img {
 
 .footer .container {
   display: flex;
-  justify-content: flex-start;
+  align-items: baseline;
 }
 
 .footer-descr {
@@ -521,6 +528,8 @@ img {
   flex-wrap: wrap;
 }
 
+/* Portfolio.html --------heroes section-------*/
+
 .heroes-list {
   margin: 0 24px 48px 0;
 
@@ -556,9 +565,12 @@ img {
   text-align: start;
 }
 
+.portfolio-link {
+  display: block;
+}
+
 .portfolio-link:hover,
 .portfolio-link:focus {
-  display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
